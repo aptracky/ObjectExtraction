@@ -2,7 +2,7 @@ import cv2
 import sys
 
 imagePath = "people_with_phones.png"
-cascPath = "frontal_face.xml"
+cascPath = "fhello"
 
 faceCascade = cv2.CascadeClassifier(cascPath)
 
