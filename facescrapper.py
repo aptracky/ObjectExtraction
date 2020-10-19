@@ -1,8 +1,8 @@
 import cv2
 import sys
 
-imagePath = sys.argv[1]
-cascPath = sys.argv[2]
+imagePath = "people_with_phones.png"
+cascPath = "frontal_face.xml"
 
 faceCascade = cv2.CascadeClassifier(cascPath)
 
